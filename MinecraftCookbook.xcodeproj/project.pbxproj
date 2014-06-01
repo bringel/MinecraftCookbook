@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F9827AC193BB3F1009D56E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F9827AB193BB3F1009D56E7 /* Foundation.framework */; };
+		2F9827AE193BB3F1009D56E7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F9827AD193BB3F1009D56E7 /* CoreGraphics.framework */; };
+		2F9827B0193BB3F1009D56E7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F9827AF193BB3F1009D56E7 /* UIKit.framework */; };
+		2F9827B6193BB3F1009D56E7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2F9827B4193BB3F1009D56E7 /* InfoPlist.strings */; };
+		2F9827B8193BB3F1009D56E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9827B7193BB3F1009D56E7 /* main.m */; };
+		2F9827BC193BB3F1009D56E7 /* MCCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9827BB193BB3F1009D56E7 /* MCCAppDelegate.m */; };
+		2F9827BE193BB3F1009D56E7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F9827BD193BB3F1009D56E7 /* Images.xcassets */; };
+		2F9827C5193BB3F2009D56E7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F9827C4193BB3F2009D56E7 /* XCTest.framework */; };
+		2F9827C6193BB3F2009D56E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F9827AB193BB3F1009D56E7 /* Foundation.framework */; };
+		2F9827C7193BB3F2009D56E7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F9827AF193BB3F1009D56E7 /* UIKit.framework */; };
+		2F9827CF193BB3F2009D56E7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2F9827CD193BB3F2009D56E7 /* InfoPlist.strings */; };
+		2F9827D1193BB3F2009D56E7 /* MinecraftCookbookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9827D0193BB3F2009D56E7 /* MinecraftCookbookTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2F9827C8193BB3F2009D56E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F9827A0193BB3F1009D56E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F9827A7193BB3F1009D56E7;
+			remoteInfo = MinecraftCookbook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2F9827A8193BB3F1009D56E7 /* MinecraftCookbook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MinecraftCookbook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F9827AB193BB3F1009D56E7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2F9827AD193BB3F1009D56E7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2F9827AF193BB3F1009D56E7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2F9827B3193BB3F1009D56E7 /* MinecraftCookbook-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MinecraftCookbook-Info.plist"; sourceTree = "<group>"; };
+		2F9827B5193BB3F1009D56E7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2F9827B7193BB3F1009D56E7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2F9827B9193BB3F1009D56E7 /* MinecraftCookbook-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MinecraftCookbook-Prefix.pch"; sourceTree = "<group>"; };
+		2F9827BA193BB3F1009D56E7 /* MCCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCCAppDelegate.h; sourceTree = "<group>"; };
+		2F9827BB193BB3F1009D56E7 /* MCCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCCAppDelegate.m; sourceTree = "<group>"; };
+		2F9827BD193BB3F1009D56E7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2F9827C3193BB3F2009D56E7 /* MinecraftCookbookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MinecraftCookbookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F9827C4193BB3F2009D56E7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		2F9827CC193BB3F2009D56E7 /* MinecraftCookbookTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MinecraftCookbookTests-Info.plist"; sourceTree = "<group>"; };
+		2F9827CE193BB3F2009D56E7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2F9827D0193BB3F2009D56E7 /* MinecraftCookbookTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MinecraftCookbookTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F9827A5193BB3F1009D56E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F9827AE193BB3F1009D56E7 /* CoreGraphics.framework in Frameworks */,
+				2F9827B0193BB3F1009D56E7 /* UIKit.framework in Frameworks */,
+				2F9827AC193BB3F1009D56E7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F9827C0193BB3F2009D56E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F9827C5193BB3F2009D56E7 /* XCTest.framework in Frameworks */,
+				2F9827C7193BB3F2009D56E7 /* UIKit.framework in Frameworks */,
+				2F9827C6193BB3F2009D56E7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F98279F193BB3F1009D56E7 = {
+			isa = PBXGroup;
+			children = (
+				2F9827B1193BB3F1009D56E7 /* MinecraftCookbook */,
+				2F9827CA193BB3F2009D56E7 /* MinecraftCookbookTests */,
+				2F9827AA193BB3F1009D56E7 /* Frameworks */,
+				2F9827A9193BB3F1009D56E7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2F9827A9193BB3F1009D56E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F9827A8193BB3F1009D56E7 /* MinecraftCookbook.app */,
+				2F9827C3193BB3F2009D56E7 /* MinecraftCookbookTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F9827AA193BB3F1009D56E7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F9827AB193BB3F1009D56E7 /* Foundation.framework */,
+				2F9827AD193BB3F1009D56E7 /* CoreGraphics.framework */,
+				2F9827AF193BB3F1009D56E7 /* UIKit.framework */,
+				2F9827C4193BB3F2009D56E7 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2F9827B1193BB3F1009D56E7 /* MinecraftCookbook */ = {
+			isa = PBXGroup;
+			children = (
+				2F9827BA193BB3F1009D56E7 /* MCCAppDelegate.h */,
+				2F9827BB193BB3F1009D56E7 /* MCCAppDelegate.m */,
+				2F9827BD193BB3F1009D56E7 /* Images.xcassets */,
+				2F9827B2193BB3F1009D56E7 /* Supporting Files */,
+			);
+			path = MinecraftCookbook;
+			sourceTree = "<group>";
+		};
+		2F9827B2193BB3F1009D56E7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2F9827B3193BB3F1009D56E7 /* MinecraftCookbook-Info.plist */,
+				2F9827B4193BB3F1009D56E7 /* InfoPlist.strings */,
+				2F9827B7193BB3F1009D56E7 /* main.m */,
+				2F9827B9193BB3F1009D56E7 /* MinecraftCookbook-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2F9827CA193BB3F2009D56E7 /* MinecraftCookbookTests */ = {
+			isa = PBXGroup;
+			children = (
+				2F9827D0193BB3F2009D56E7 /* MinecraftCookbookTests.m */,
+				2F9827CB193BB3F2009D56E7 /* Supporting Files */,
+			);
+			path = MinecraftCookbookTests;
+			sourceTree = "<group>";
+		};
+		2F9827CB193BB3F2009D56E7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2F9827CC193BB3F2009D56E7 /* MinecraftCookbookTests-Info.plist */,
+				2F9827CD193BB3F2009D56E7 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F9827A7193BB3F1009D56E7 /* MinecraftCookbook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F9827D4193BB3F2009D56E7 /* Build configuration list for PBXNativeTarget "MinecraftCookbook" */;
+			buildPhases = (
+				2F9827A4193BB3F1009D56E7 /* Sources */,
+				2F9827A5193BB3F1009D56E7 /* Frameworks */,
+				2F9827A6193BB3F1009D56E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MinecraftCookbook;
+			productName = MinecraftCookbook;
+			productReference = 2F9827A8193BB3F1009D56E7 /* MinecraftCookbook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2F9827C2193BB3F2009D56E7 /* MinecraftCookbookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F9827D7193BB3F2009D56E7 /* Build configuration list for PBXNativeTarget "MinecraftCookbookTests" */;
+			buildPhases = (
+				2F9827BF193BB3F2009D56E7 /* Sources */,
+				2F9827C0193BB3F2009D56E7 /* Frameworks */,
+				2F9827C1193BB3F2009D56E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F9827C9193BB3F2009D56E7 /* PBXTargetDependency */,
+			);
+			name = MinecraftCookbookTests;
+			productName = MinecraftCookbookTests;
+			productReference = 2F9827C3193BB3F2009D56E7 /* MinecraftCookbookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F9827A0193BB3F1009D56E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MCC;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Bradley Ringel";
+				TargetAttributes = {
+					2F9827C2193BB3F2009D56E7 = {
+						TestTargetID = 2F9827A7193BB3F1009D56E7;
+					};
+				};
+			};
+			buildConfigurationList = 2F9827A3193BB3F1009D56E7 /* Build configuration list for PBXProject "MinecraftCookbook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2F98279F193BB3F1009D56E7;
+			productRefGroup = 2F9827A9193BB3F1009D56E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F9827A7193BB3F1009D56E7 /* MinecraftCookbook */,
+				2F9827C2193BB3F2009D56E7 /* MinecraftCookbookTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F9827A6193BB3F1009D56E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F9827B6193BB3F1009D56E7 /* InfoPlist.strings in Resources */,
+				2F9827BE193BB3F1009D56E7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F9827C1193BB3F2009D56E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F9827CF193BB3F2009D56E7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F9827A4193BB3F1009D56E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F9827BC193BB3F1009D56E7 /* MCCAppDelegate.m in Sources */,
+				2F9827B8193BB3F1009D56E7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F9827BF193BB3F2009D56E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F9827D1193BB3F2009D56E7 /* MinecraftCookbookTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2F9827C9193BB3F2009D56E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F9827A7193BB3F1009D56E7 /* MinecraftCookbook */;
+			targetProxy = 2F9827C8193BB3F2009D56E7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2F9827B4193BB3F1009D56E7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F9827B5193BB3F1009D56E7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2F9827CD193BB3F2009D56E7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F9827CE193BB3F2009D56E7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2F9827D2193BB3F2009D56E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2F9827D3193BB3F2009D56E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2F9827D5193BB3F2009D56E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MinecraftCookbook/MinecraftCookbook-Prefix.pch";
+				INFOPLIST_FILE = "MinecraftCookbook/MinecraftCookbook-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2F9827D6193BB3F2009D56E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MinecraftCookbook/MinecraftCookbook-Prefix.pch";
+				INFOPLIST_FILE = "MinecraftCookbook/MinecraftCookbook-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2F9827D8193BB3F2009D56E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MinecraftCookbook.app/MinecraftCookbook";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MinecraftCookbook/MinecraftCookbook-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MinecraftCookbookTests/MinecraftCookbookTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		2F9827D9193BB3F2009D56E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MinecraftCookbook.app/MinecraftCookbook";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MinecraftCookbook/MinecraftCookbook-Prefix.pch";
+				INFOPLIST_FILE = "MinecraftCookbookTests/MinecraftCookbookTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F9827A3193BB3F1009D56E7 /* Build configuration list for PBXProject "MinecraftCookbook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F9827D2193BB3F2009D56E7 /* Debug */,
+				2F9827D3193BB3F2009D56E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F9827D4193BB3F2009D56E7 /* Build configuration list for PBXNativeTarget "MinecraftCookbook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F9827D5193BB3F2009D56E7 /* Debug */,
+				2F9827D6193BB3F2009D56E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2F9827D7193BB3F2009D56E7 /* Build configuration list for PBXNativeTarget "MinecraftCookbookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F9827D8193BB3F2009D56E7 /* Debug */,
+				2F9827D9193BB3F2009D56E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2F9827A0193BB3F1009D56E7 /* Project object */;
+}
